@@ -1,0 +1,4 @@
+read_verilog ALU.v
+synth -top ALU
+show  
+write_verilog ALU_netlist.v
