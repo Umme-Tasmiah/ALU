@@ -1,6 +1,6 @@
-SRC = ALU.v ALU_tb.v
-OUT = ALU_sim
-WAVE = ALU_wave.vcd
+SRC = src/ALU.v src/ALU_tb.v
+OUT = sim/ALU_sim
+WAVE = sim/ALU_wave.vcd
 
 all:
 	iverilog -o $(OUT) $(SRC)
