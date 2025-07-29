@@ -1,4 +1,4 @@
-read_verilog ALU.v
+read_verilog ../src/ALU.v
 synth -top ALU
-show  
+show
 write_verilog ALU_netlist.v
